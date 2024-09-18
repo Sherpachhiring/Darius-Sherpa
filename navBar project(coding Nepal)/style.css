@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.title{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.Icon-bar{
+   position: fixed;
+   right: 40px;
+   top: 20px;
+   /* width: 70px;
+   height: 50px; */
+   display: none;
+}
+
+body{
+    /* background-image: url();
+    background-position: center;
+    background-repeat: no-repeat; */
+    overflow-y: hidden;
+} 
+
+ /* nav{
+    margin-bottom: 100px;
+}  */
+
+   
+   
+   
+    
+
+header{
+    max-width: 100%;
+    background-color: #0082e6;
+    height: 75px;
+    
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-inline: 30px;
+    padding-block: 16px;
+    
+}
+
+.header-content > nav  a{
+   text-decoration: none;
+   margin-right: 30px;
+   font-size: 1rem;
+   text-transform: uppercase;
+   color: black;
+   border-radius: 10px;
+   
+   
+   
+   
+   
+    
+}  
+
+.times-icon{
+    font-size: 26px;
+    color: black;
+    margin-left: 128px;
+    display: none;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.header-content > nav  a:hover,a.active{
+    color: white;
+}
+ 
+
+
+    
+
+
+@media(max-width:800px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        left: -230px;
+        line-height: 70px;
+        top: 80px;
+        min-height: 100%;
+        top: 65px;
+        width:220px;
+        background-color: #0082e658;
+        transition: left 0.5s ease;
+         /* left: 0px; */
+        align-items: center;
+        font-weight: 800;
+        /* display:none ; */
+        /* margin: 0; */
+        
+    }
+    header{
+        height: 65px;
+    }
+
+    .title{
+        font-size: 1rem;
+    }
+        
+        
+
+
+
+    .times-icon{
+        display: block;
+    }
+
+    .Icon-bar{
+        display: block;
+    }
+
+    
+}
+ 
+section{
+    display: block;
+    background:url(/office.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 100vh; 
+    background-position: center;
+}
+
+.menu-open{
+   
+    left:0px;  
+  }
+
+
+    
+    
+
+
+
+
